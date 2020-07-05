@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Dolfo/Scenes/Spaceship Store.unity
+    guid: 0cadea70e49cd9041a410ed07c1a9af3
+  - enabled: 1
+    path: Assets/Dolfo/Scenes/Moon.unity
+    guid: c76d26ed36abc9a4391d868778f535d9
   m_configObjects: {}
