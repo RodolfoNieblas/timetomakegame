@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class player_movement : MonoBehaviour {
 
-    public float speed;                //Floating point variable to store the player's movement speed.
+    public float speed;  //Floating point variable to store the player's movement speed.
 
 
 
@@ -27,6 +27,5 @@ public class player_movement : MonoBehaviour {
         Vector3 movement = new Vector3 (moveHorizontal, moveVertical, 0.0f);
 
         transform.position = transform.position + (movement.normalized * speed) * Time.deltaTime;
-
     }
 }
