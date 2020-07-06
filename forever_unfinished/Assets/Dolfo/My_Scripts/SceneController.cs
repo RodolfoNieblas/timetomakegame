@@ -9,7 +9,7 @@ public class SceneController : MonoBehaviour //This script is given to GameObjec
     public static string prevScene = ""; //making this variable static allows us to use the variable without having to declare it inside unity
     public static string currentScene = "";
     public static int prevKey;
-    //private ChangeScene changeScene;
+    
     
 
     public virtual void Start(){ //we use "virtual" here so we can override this function on a script derived of this one aka World.cs
