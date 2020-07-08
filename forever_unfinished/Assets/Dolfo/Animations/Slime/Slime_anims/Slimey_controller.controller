@@ -70,6 +70,7 @@ AnimatorState:
   - {fileID: 5407487738258096126}
   - {fileID: -1678062303256528428}
   - {fileID: -3491713022395820637}
+  - {fileID: 8507080558307800583}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -175,6 +176,7 @@ AnimatorState:
   - {fileID: 398814724624667747}
   - {fileID: -7724833373339173730}
   - {fileID: -2863418009581229765}
+  - {fileID: 2298080863973722004}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -516,6 +518,31 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1101 &2298080863973722004
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Left
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -8786905661495100146}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.25
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1102 &2836353629002748779
 AnimatorState:
   serializedVersion: 5
@@ -688,7 +715,7 @@ AnimatorStateMachine:
     m_Position: {x: 110, y: 670, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8786905661495100146}
-    m_Position: {x: -410, y: 340, z: 0}
+    m_Position: {x: -500, y: 460, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6341583761916382599}
     m_Position: {x: 270, y: 320, z: 0}
@@ -705,6 +732,31 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 2836353629002748779}
+--- !u!1101 &8507080558307800583
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: Right
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -6341583761916382599}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.25
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &8858017087968605676
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

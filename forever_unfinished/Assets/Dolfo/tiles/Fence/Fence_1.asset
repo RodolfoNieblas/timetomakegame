@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: fence_tiles
+  m_Name: Fence_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: ccb046ff82a76fe4a95a8563ad329609, type: 3}
+  m_Sprite: {fileID: 2311940087313822035, guid: 63a5d345864af094286fde6e402d8703,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
