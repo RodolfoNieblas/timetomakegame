@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Dolfo/Scenes/Spaceship Store.unity
+    path: Assets/Dolfo/scenes/HoleOne.unity
     guid: 0cadea70e49cd9041a410ed07c1a9af3
   - enabled: 1
-    path: Assets/Dolfo/Scenes/Moon.unity
+    path: Assets/Dolfo/scenes/Earth.unity
     guid: c76d26ed36abc9a4391d868778f535d9
   m_configObjects: {}
