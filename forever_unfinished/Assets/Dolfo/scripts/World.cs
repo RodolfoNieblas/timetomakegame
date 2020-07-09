@@ -16,8 +16,8 @@ public class World : SceneController   //This script is given to GameObject "Gam
             Camera.main.transform.position = new Vector3(-0.21f, -0.5f, -10f);
         }
         else if(prevScene == "HoleOne" && prevKey == 1){
-            player.position = new Vector3(-2.18f, 2.07f, 0f);
-            Camera.main.transform.position = new Vector3(-2.18f, 2.07f, -10f);
+            player.position = new Vector3(3f, 8.37f, 0f);
+            Camera.main.transform.position = new Vector3(3f, 8.37f, -10f);
         }
        
     }
