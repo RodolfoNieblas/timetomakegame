@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dolfo/scenes/Earth.unity
     guid: c76d26ed36abc9a4391d868778f535d9
+  - enabled: 1
+    path: Assets/Dolfo/scenes/HoleTwo.unity
+    guid: d8259f32dec1e444695f3ff5ded31b88
   m_configObjects: {}
