@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FuseBox : MonoBehaviour
 {
-    public light2D myLight;
+    
 
     void Start()
     {
