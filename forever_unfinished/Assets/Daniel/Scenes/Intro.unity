@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 168363449}
   - component: {fileID: 168363448}
   - component: {fileID: 168363447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trees
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,8 +206,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 714364177
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -27314,7 +27314,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 174044975}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27345,7 +27345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 283546816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27376,7 +27376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 304776002}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27406,7 +27406,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 586696012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27437,7 +27437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 605978866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27467,7 +27467,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 697942685}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27597,7 +27597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796148963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27629,7 +27629,7 @@ GameObject:
   m_Component:
   - component: {fileID: 915586501}
   - component: {fileID: 915586500}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27711,7 +27711,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -27746,7 +27746,7 @@ MonoBehaviour:
   - {fileID: 174044975}
   - {fileID: 304776002}
   m_Bounds:
-    m_Center: {x: 0.00039581954, y: 0.011354223, z: 0}
+    m_Center: {x: 0.00039581954, y: 0.011354208, z: 0}
     m_Extent: {x: 0.14543754, y: 0.2526459, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -27786,8 +27786,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -293457557
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7a818a366f55a457aa59a96778f21319, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -27808,7 +27808,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927662026}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.46, y: -1.16, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 0}
   m_Children:
   - {fileID: 1328124049}
@@ -27847,7 +27847,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.00039581954, y: 0.011354223}
+  m_Offset: {x: -0.004381709, y: 0.007892787}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -27858,7 +27858,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.29087508, y: 0.5052918}
+  m_Size: {x: 0.24810196, y: 0.4726267}
   m_EdgeRadius: 0
 --- !u!1 &1328124048
 GameObject:
@@ -27869,7 +27869,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1328124049}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27901,7 +27901,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1387126571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27934,7 +27934,7 @@ GameObject:
   - component: {fileID: 1394084054}
   - component: {fileID: 1394084056}
   - component: {fileID: 1394084055}
-  m_Layer: 10
+  m_Layer: 9
   m_Name: basic_tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27991,8 +27991,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 714364177
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -29695,7 +29695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1547734865}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29726,7 +29726,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1842825552}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: bone_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29759,6 +29759,9 @@ GameObject:
   - component: {fileID: 1971549691}
   - component: {fileID: 1971549690}
   - component: {fileID: 1971549689}
+  - component: {fileID: 1971549692}
+  - component: {fileID: 1971549694}
+  - component: {fileID: 1971549693}
   m_Layer: 8
   m_Name: Slime_enemy
   m_TagString: Untagged
@@ -29821,9 +29824,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -121448635
+  m_SortingLayer: 2
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6584b8b56ae617e4e8c78fc777727f62, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -29849,3 +29852,65 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1971549692
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971549688}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0035247803, y: -0.12336612}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.47128773, y: 0.45718908}
+  m_EdgeRadius: 0
+--- !u!114 &1971549693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971549688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa6e2edc194b74a77a0b4b245499c7ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  move_speed: 3
+  time_betwixt_move: 0.75
+  time_to_move: 1.5
+--- !u!50 &1971549694
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971549688}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
