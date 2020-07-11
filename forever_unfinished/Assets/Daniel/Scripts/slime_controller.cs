@@ -18,7 +18,7 @@ public class slime_controller : MonoBehaviour
     public float slimeMoving;
     private float slimeMoving_private;
 
-    //Velocity vector of slime will be set to this, so direction + speed
+    //Velocity vector of slime will be set to this, so direction * speed
     private Vector2 move_dir;    
 
     
