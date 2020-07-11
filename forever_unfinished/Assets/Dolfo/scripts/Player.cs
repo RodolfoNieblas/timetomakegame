@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement; // I am using this header in order to change 
 
 public class Player : MonoBehaviour
 {
+    //For movement
     public float speed;
+    private Rigidbody2D Player_RigidBody2D;
 
+    //For animation
     public Animator Player_Animator;
     bool right = false;
     bool left = false;
@@ -18,6 +21,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        speed = 6f;
+        Player_RigidBody2D = GetComponent<Rigidbody2D>();
         Player_Animator = GetComponent<Animator>();
     }
 
@@ -27,8 +32,24 @@ public class Player : MonoBehaviour
         //Code for Movement
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");
-        Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0f);
-        transform.position = transform.position + (movement.normalized * speed * Time.deltaTime);
+
+        // if player moves anywhere then the velocity vector = speed
+        if (moveHorizontal > 0.5f || moveHorizontal < -0.5f || moveVertical > 0.5f || moveVertical < -0.5f)  
+        {
+            Player_RigidBody2D.velocity = new Vector2(moveHorizontal, moveVertical).normalized * speed;
+        }
+        
+        // When we release 'a' or 'd' then the player stops moving horizontally
+        else if (moveHorizontal < 0.5f && moveHorizontal > -0.5f) { 
+            Player_RigidBody2D.velocity = new Vector2(0f, moveVertical).normalized;
+        }
+
+        // When we release 'w' or 's' then the player stops moving vertically
+        else if (moveVertical < 0.5f && moveVertical > -0.5f) {
+            Player_RigidBody2D.velocity = new Vector2(moveHorizontal, 0f).normalized;
+        }
+        
+
 
         //Code for Animator
         if(Input.GetKeyDown(KeyCode.W)){
@@ -63,9 +84,5 @@ public class Player : MonoBehaviour
             down = false;
             Player_Animator.SetBool("Down", down);
         }
-
-        //Code for Making Portals
-
-        
     }
 }
