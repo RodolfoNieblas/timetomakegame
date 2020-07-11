@@ -29805,9 +29805,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slimeSpeed: 0.5
-  randRange: 5
+  randRange: 10
   regularSequence: 0
-  randomSequence: 2
+  randomSequence: 5
 --- !u!1 &1842825551
 GameObject:
   m_ObjectHideFlags: 0
