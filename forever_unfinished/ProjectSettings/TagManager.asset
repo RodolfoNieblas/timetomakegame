@@ -53,3 +53,24 @@ TagManager:
   - name: Player
     uniqueID: 4001509739
     locked: 0
+  - name: 'DONT CROSS '
+    uniqueID: 128755081
+    locked: 0
+  - name: Ground
+    uniqueID: 231454863
+    locked: 0
+  - name: LightPost
+    uniqueID: 854591215
+    locked: 0
+  - name: Fence
+    uniqueID: 3718961339
+    locked: 0
+  - name: BelowPlayer
+    uniqueID: 3377389849
+    locked: 0
+  - name: Slime_Player
+    uniqueID: 2050216905
+    locked: 0
+  - name: AbovePlayer
+    uniqueID: 2526536671
+    locked: 0
