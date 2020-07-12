@@ -7,6 +7,7 @@ TagManager:
   - Door
   - Key
   - LightPost
+  - FuseBox
   layers:
   - Default
   - TransparentFX
@@ -67,6 +68,9 @@ TagManager:
     locked: 0
   - name: BelowPlayer
     uniqueID: 3377389849
+    locked: 0
+  - name: Enemy
+    uniqueID: 443302795
     locked: 0
   - name: Slime_Player
     uniqueID: 2050216905

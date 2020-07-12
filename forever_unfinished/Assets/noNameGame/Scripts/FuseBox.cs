@@ -5,18 +5,19 @@ using UnityEngine.Experimental.Rendering.Universal; //for 2D lights
 
 public class FuseBox : MonoBehaviour
 {
-    private Light2D post;
+    public bool fuseboxON;
+
 
     void Start()
     {
-        post = GameObject.FindGameObjectWithTag("LightPost").GetComponent<Light2D>();
-        post.enabled = false;
+        fuseboxON = false;
+        
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player")){
-            post.enabled = true;
+            fuseboxON = true;
         }
     }
    
