@@ -8,6 +8,7 @@ TagManager:
   - Key
   - LightPost
   - FuseBox
+  - Enemy
   layers:
   - Default
   - TransparentFX
