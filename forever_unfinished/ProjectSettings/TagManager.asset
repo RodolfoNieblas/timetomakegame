@@ -7,6 +7,7 @@ TagManager:
   - Door
   - Key
   - LightPost
+  - Enemy
   layers:
   - Default
   - TransparentFX
