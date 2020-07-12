@@ -33,7 +33,9 @@ public class slime_follows : MonoBehaviour
     public float randRange; //The higher this variable is increased, the higher the jitter
 
     private Transform player;
+
     private Rigidbody2D slimeRB;
+    private SpriteRenderer slimeRenderer;
 
     private float playerX;  //These are the X and Y coordinates of the player and slime
     private float playerY;        
@@ -59,6 +61,8 @@ public class slime_follows : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         slimeRB = GetComponent<Rigidbody2D>();
+        slimeRenderer = GetComponent<SpriteRenderer>();
+        slimeRenderer.enabled = true; //just for safety
 
         regularSequencePrivate = regularSequence;
         randomSequencePrivate = randomSequence;
@@ -104,6 +108,12 @@ public class slime_follows : MonoBehaviour
                 RandomMovement = false; //then the regular movement begins
                 regularSequencePrivate = regularSequence; //Resetting timer for regular sequence
             }
+        }
+
+        //If the slime gets close enough to the player, it explodes
+        if(Mathf.Abs(slimeVelX) <= 1f && Mathf.Abs(slimeVelY) <= 1f)
+        {
+            slimeRenderer.enabled = false;
         }
 
         
